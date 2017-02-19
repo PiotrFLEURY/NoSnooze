@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">No Snooze</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_hour">Changer d\'heure</string>
+    <string name="action_ringtone">Changer de sonnerie</string>
+    <string name="action_days">Sélection des jours</string>
+    <string name="title_activity_alarm">Allez debout !</string>
+    <string name="enigmadialogtitle">Réveillé ?</string>
+    <string name="enigmadialogmessage">Combien font {0} ?</string>
+    <string name="validateenigma">Valider</string>
+    <string name="cancelenigma">Je ne sais pas</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="alarmscheduled">Réveil programmé {0} à {1}</string>
+    <string name="alarmcanceled">Réveil éteint</string>
+    <string name="title_activity_day_selection">Sélection des jours</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Dimanche">Dimanche</string>
+    <string name="Lundi">Lundi</string>
+    <string name="Mardi">Mardi</string>
+    <string name="Mercredi">Mercredi</string>
+    <string name="Jeudi">Jeudi</string>
+    <string name="Vendredi">Vendredi</string>
+    <string name="Samedi">Samedi</string>
+    <string name="title_activity_circles">Cercles</string>
+    <string name="circleinstruction">Touchez les cercles dans le bon ordre</string>
+    <string name="ringtoneselectiontitle">Sélectionnez une sonnerie</string>
+    <string name="sonnerie">Sonnerie :</string>
+    <string name="nextalarm">Prochain réveil {0} à {1}</string>
+    <string name="essayerarlam">Essayer le réveil</string>
+    <string name="essayercercles">Essayer les cercles</string>
+    <string name="essayerformes">Essayer les formes</string>
+    <string name="appuyezlongtemps">Appuyez longtemps</string>
+    <string name="title_activity_shapes">Formes</string>
+    <string name="shapesactivityinstruction">Appuyez sur le</string>
+    <string name="cercle">cercle</string>
+    <string name="carre">carré</string>
+    <string name="blanc">blanc</string>
+    <string name="vert">vert</string>
+    <string name="rouge">rouge</string>
+    <string name="bleu">bleu</string>
+
+</resources>

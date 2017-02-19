@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_hour" android:title="@string/action_hour"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_ringtone" android:title="@string/action_ringtone"
+        android:orderInCategory="200" app:showAsAction="never" />
+    <item android:id="@+id/action_try_alarm" android:title="@string/essayerarlam"
+        android:orderInCategory="200" app:showAsAction="never" />
+    <item android:id="@+id/action_try_circles" android:title="@string/essayercercles"
+        android:orderInCategory="200" app:showAsAction="never" />
+    <item android:id="@+id/action_try_shapes" android:title="@string/essayerformes"
+        android:orderInCategory="200" app:showAsAction="never" />
+</menu>

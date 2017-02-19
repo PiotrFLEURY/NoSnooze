@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="piotr.fr.nosnooze.ShapesActivity"
+    android:orientation="vertical"
+    android:background="@color/indigo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/shapesactivity_instruction"
+            android:text="@string/shapesactivityinstruction"
+            android:textColor="#FFF"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="36dp"
+            android:id="@+id/shapesactivity_shapeName"
+            android:textColor="#FFF"
+            tools:text="carré"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36dp"
+            android:textStyle="bold"
+            android:id="@+id/shapesactivity_shapeColor"
+            android:textColor="#FFF"
+            tools:text="vert"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/shapesactivitylayout"
+            android:padding="16dp"
+            android:columnCount="4"
+            android:rowCount="2"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
