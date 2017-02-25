@@ -41,5 +41,6 @@
     <string name="vert">vert</string>
     <string name="rouge">rouge</string>
     <string name="bleu">bleu</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
 
 </resources>

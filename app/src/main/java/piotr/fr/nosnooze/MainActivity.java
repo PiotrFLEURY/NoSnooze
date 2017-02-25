@@ -294,4 +294,10 @@ public class MainActivity extends ActionBarActivity implements TimePickerDialog.
     public void launchCircles(){
         startActivity(new Intent(this, CirclesActivity.class));
     }
+
+    public void openPrivacyPolicy(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse("http://objectifandroid.blogspot.fr/2016/12/politique-de-confidentialite.html"));
+        startActivity(intent);
+    }
 }
